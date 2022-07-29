@@ -1,10 +1,13 @@
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
+    align-items: center;
 }
 
 body {
-    background-color: rgb(138, 96, 96)
+    background-color: rgb(138, 96, 96);
+    align-content: center;
+    align-items: center;
 }
 #monsters {
     background-color: red;
@@ -17,6 +20,7 @@ body {
     border: none;
     cursor: pointer;
     transition: all 0.5s;
+    align-items: center;
 }
 
 .image img {
